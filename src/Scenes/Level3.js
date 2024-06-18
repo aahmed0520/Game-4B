@@ -213,7 +213,7 @@ class Level3 extends Phaser.Scene {
             this.scene.start('platformerScene');
         }
 
-        this.coinCounter.setText('Coins: ' + this.numCoinsCollected + '/43');
+        this.coinCounter.setText('Coins: ' + this.numCoinsCollected + '/46');
 
         for (let i = 0; i < 3; i++) {
             if (i < this.playerHealth) {
